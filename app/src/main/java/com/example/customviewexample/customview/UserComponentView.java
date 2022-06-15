@@ -26,7 +26,7 @@ public class UserComponentView extends RelativeLayout {
     }
 
     private void initView() {
-
+        // Username
         binding.tvUserName.setText(attributes.getString(R.styleable.UserComponentView_userName));
         binding.tvUserName.setTextSize(TypedValue.COMPLEX_UNIT_SP, (attributes.getInteger(R.styleable.UserComponentView_userNameSize, 14)));
         binding.tvUserName.setTextColor(attributes.getColor(R.styleable.UserComponentView_userNameColor, Color.BLACK));
