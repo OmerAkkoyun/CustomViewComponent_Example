@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.example.customviewexample.customview.UserComponentView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:description="test description default14sp"
+            app:userName="Omer Akkoyun"
+            app:userNameSize="20" />
+
+        <com.example.customviewexample.customview.UserComponentView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:description="test description 18sp"
+            app:descriptionColor="@color/red"
+            app:descriptionSize="18"
+            app:userName="Recep Akkoyun"
+            app:userNameColor="@color/colorAccent"
+            app:userNameSize="20"
+            app:userPhoto="fake_photo_link" />
+
+        <com.example.customviewexample.customview.UserComponentView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:description="test description 12sp"
+            app:descriptionColor="@color/colorPrimaryDark"
+            app:descriptionSize="12"
+            app:userName="Hakan Demirci"
+            app:userNameColor="@color/blue"
+            app:userNameSize="20"
+            app:userPhoto="" />
+
+    </LinearLayout>
+</layout>

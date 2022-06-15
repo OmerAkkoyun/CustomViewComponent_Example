@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="UserComponentView">
+
+        <attr name="userName" format="string"/>
+        <attr name="userNameSize" format="integer"/>
+        <attr name="userNameColor" format="color"/>
+
+        <attr name="description" format="string"/>
+        <attr name="descriptionSize" format="integer"/>
+        <attr name="descriptionColor" format="color"/>
+
+        <attr name="userPhoto" format="string"/>
+
+    </declare-styleable>
+
+</resources>
